@@ -1,0 +1,16 @@
+{
+  "name": "shiza-component-v2-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Bot Discord Components V2 avec panneau de tickets configurable",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "check": "node --check index.js && node --check tickets.js && node --check store.js && node --check features.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.28.1",
+    "dotenv": "^18.0.9"
+  }
+}
